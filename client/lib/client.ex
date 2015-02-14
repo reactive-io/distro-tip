@@ -50,7 +50,7 @@ defmodule Client do
         notify
       :stop ->
         Logger.info("stopping")
-      :any ->
+      _any ->
         notify
     end
   end
